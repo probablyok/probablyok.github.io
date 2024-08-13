@@ -1,40 +1,21 @@
 @font-face {
-    font-family: "Karla-Regular";
-    src: url(./fonts/Karla/Karla-Regular.ttf);
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Karla-Normal";
+    src: url(./fonts/Karla/Karla-VariableFont_wght.ttf);
 }
 
 @font-face {
-    font-family: "Karla-Italic";
-    src: url(./fonts/Karla/Karla-Italic.ttf);
-    font-weight: normal;
-    font-style: italic;
+    font-family: "Karla-Italics";
+    src: url(./fonts/Karla/Karla-Italic-VariableFont_wght.ttf);
 }
-
-@font-face {
-    font-family: "Karla-Bold";
-    src: url(./fonts/Karla/Karla-Bold.ttf);
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Karla-BoldItalic";
-    src: url(./fonts/Karla/Karla-BoldItalic.ttf);
-    font-weight: bold;
-    font-style: italic;
-}
-
 
 body {
     margin: 40px auto;
-    max-width: 650px;
+    max-width: 850px;
     line-height: 1.6;
     font-size: 16px;
-    font-family: "Karla-Regular";
+    font-family: "Karla", sans-serif;
     color: #444;
-    padding: 0 10px;
+    padding: 10px;
 }
 h1, h2, h3 {
     line-height: 1.2;
