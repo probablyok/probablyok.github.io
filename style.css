@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "Karla-Normal";
+    font-family: "Karla-Font";
     src: url(./fonts/Karla/Karla-VariableFont_wght.ttf);
 }
 
 @font-face {
-    font-family: "Karla-Italics";
+    font-family: "Karla-Italic-Font";
     src: url(./fonts/Karla/Karla-Italic-VariableFont_wght.ttf);
 }
 
@@ -13,7 +13,7 @@ body {
     max-width: 850px;
     line-height: 1.6;
     font-size: 16px;
-    font-family: "Karla", sans-serif;
+    font-family: "Karla-Font", sans-serif;
     color: #444;
     padding: 10px;
 }
