@@ -1,11 +1,21 @@
 @font-face {
-    font-family: "Karla-Font";
-    src: url(./fonts/Karla/Karla-VariableFont_wght.ttf);
+    font-family: "Karla-Bold";
+    src: url(./fonts/Karla/Karla-Bold.ttf);
 }
 
 @font-face {
-    font-family: "Karla-Italic-Font";
-    src: url(./fonts/Karla/Karla-Italic-VariableFont_wght.ttf);
+    font-family: "Karla-BoldItalic";
+    src: url(./fonts/Karla/Karla-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Karla-Italic";
+    src: url(./fonts/Karla/Karla-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Karla-Regular";
+    src: url(./fonts/Karla/Karla-Regular.ttf);
 }
 
 body {
@@ -13,7 +23,7 @@ body {
     max-width: 850px;
     line-height: 1.6;
     font-size: 16px;
-    font-family: "Karla-Font", sans-serif;
+    font-family: "Karla-Italic", sans-serif;
     color: #444;
     padding: 10px;
 }
