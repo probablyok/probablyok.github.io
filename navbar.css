@@ -1,0 +1,16 @@
+.page-links {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.page-links-item:hover {
+    color:#aaa;
+}
+
+.page-links-item {
+    text-align: center;
+    margin: auto;
+    color: #444;
+}
