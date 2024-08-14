@@ -18,15 +18,47 @@
     src: url(../fonts/Karla/Karla-Regular.ttf);
 }
 
+@font-face {
+    font-family: "mononoki-Bold";
+    src: url(../fonts/mononoki/mononoki-Bold.ttf);
+}
+
+@font-face {
+    font-family: "mononoki-Bolditalic";
+    src: url(../fonts/mononoki/mononoki-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "mononoki-Italic";
+    src: url(../fonts/mononoki/mononoki-Italic.ttf);
+}
+
+@font-face {
+    font-family: "mononoki-Regular";
+    src: url(../fonts/mononoki/mononoki-Regular.ttf);
+}
+
 body {
     margin: 20px auto;
     max-width: 750px;
     line-height: 1.6;
-    font-size: 16px;
-    font-family: "Karla-Regular", sans-serif;
+    font-size: 14px;
+    font-family: "mononoki-Regular", monospace;
     color: #444;
     padding: 10px;
 }
+
 h1, h2, h3 {
     line-height: 1.2;
+    margin: 25px 0px;
+}
+
+p {
+    margin-top: auto;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #444;
 }
