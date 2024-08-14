@@ -57,6 +57,19 @@ p {
     margin-top: auto;
 }
 
+p.last-p {
+    margin-bottom: auto;
+}
+
+p.caption {
+    margin-bottom: auto;
+    font-size: 12px;
+    border-top: 1px #444 solid;
+    border-bottom: 1px #444 solid;
+    text-align: center;
+    padding: 4px;
+}
+
 hr {
     border: 0;
     height: 1px;
