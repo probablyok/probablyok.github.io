@@ -1,15 +1,15 @@
 .page-links {
-    display: grid;
-    grid-template-columns: repeat(11, 1fr);
-    margin: auto
+	display: grid;
+	grid-template-columns: repeat(11, 1fr);
+	margin: auto
 }
 
 .page-links-item:hover {
-    color:#aaa;
+	color: #aaa;
 }
 
 .page-links-item {
-    text-align: center;
-    margin: auto;
-    color: #444;
+	text-align: center;
+	margin: auto;
+	color: #444;
 }

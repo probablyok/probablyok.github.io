@@ -1,77 +1,79 @@
 @font-face {
-    font-family: "Karla-Bold";
-    src: url(../fonts/Karla/Karla-Bold.ttf);
+	font-family: "Karla-Bold";
+	src: url(../fonts/Karla/Karla-Bold.ttf);
 }
 
 @font-face {
-    font-family: "Karla-BoldItalic";
-    src: url(../fonts/Karla/Karla-BoldItalic.ttf);
+	font-family: "Karla-BoldItalic";
+	src: url(../fonts/Karla/Karla-BoldItalic.ttf);
 }
 
 @font-face {
-    font-family: "Karla-Italic";
-    src: url(../fonts/Karla/Karla-Italic.ttf);
+	font-family: "Karla-Italic";
+	src: url(../fonts/Karla/Karla-Italic.ttf);
 }
 
 @font-face {
-    font-family: "Karla-Regular";
-    src: url(../fonts/Karla/Karla-Regular.ttf);
+	font-family: "Karla-Regular";
+	src: url(../fonts/Karla/Karla-Regular.ttf);
 }
 
 @font-face {
-    font-family: "mononoki-Bold";
-    src: url(../fonts/mononoki/mononoki-Bold.ttf);
+	font-family: "mononoki-Bold";
+	src: url(../fonts/mononoki/mononoki-Bold.ttf);
 }
 
 @font-face {
-    font-family: "mononoki-Bolditalic";
-    src: url(../fonts/mononoki/mononoki-BoldItalic.ttf);
+	font-family: "mononoki-Bolditalic";
+	src: url(../fonts/mononoki/mononoki-BoldItalic.ttf);
 }
 
 @font-face {
-    font-family: "mononoki-Italic";
-    src: url(../fonts/mononoki/mononoki-Italic.ttf);
+	font-family: "mononoki-Italic";
+	src: url(../fonts/mononoki/mononoki-Italic.ttf);
 }
 
 @font-face {
-    font-family: "mononoki-Regular";
-    src: url(../fonts/mononoki/mononoki-Regular.ttf);
+	font-family: "mononoki-Regular";
+	src: url(../fonts/mononoki/mononoki-Regular.ttf);
 }
 
 body {
-    margin: 20px auto;
-    max-width: 750px;
-    line-height: 1.6;
-    font-size: 14px;
-    font-family: "mononoki-Regular", monospace;
-    color: #444;
-    padding: 10px;
+	margin: 20px auto;
+	max-width: 750px;
+	line-height: 1.6;
+	font-size: 14px;
+	font-family: "mononoki-Regular", monospace;
+	color: #444;
+	padding: 10px;
 }
 
-h1, h2, h3 {
-    line-height: 1.2;
-    margin: 25px 0px;
+h1,
+h2,
+h3 {
+	line-height: 1.2;
+	margin: 25px 0px;
 }
 
 p {
-    margin-top: auto;
+	margin-top: auto;
 }
 
 p.last-p {
-    margin-bottom: auto;
+	margin-bottom: auto;
 }
 
 p.caption {
-    margin-bottom: auto;
-    font-size: 12px;
-    border-top: 1px #444 solid;
-    border-bottom: 1px #444 solid;
-    text-align: center;
-    padding: 4px;
+	margin-bottom: auto;
+	font-size: 12px;
+	border-top: 1px #444 solid;
+	border-bottom: 1px #444 solid;
+	text-align: center;
+	padding: 4px;
 }
 
 hr {
-    border: 0;
-    height: 1px;
-    background-color: #444;
+	border: 0;
+	height: 1px;
+	background-color: #444;
 }
